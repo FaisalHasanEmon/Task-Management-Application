@@ -8,9 +8,9 @@ const MainLayout = () => {
     <>
       <li
         role="tab"
-        className={`tab ${location.pathname === "/to-do" ? "tab-active" : ""}`}
+        className={`tab ${location.pathname === "/" ? "tab-active" : ""}`}
       >
-        <NavLink to="to-do">To-Do</NavLink>
+        <NavLink to="/">To-Do</NavLink>
       </li>
       <li
         role="tab"

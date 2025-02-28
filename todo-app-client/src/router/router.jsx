@@ -9,7 +9,7 @@ const router = createBrowserRouter([
     element: <MainLayout></MainLayout>,
     children: [
       {
-        path: "to-do",
+        path: "/",
         element: <Todo></Todo>,
       },
       {
